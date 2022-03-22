@@ -1,2 +1,3 @@
-# portfolio
-Website for all my work
+# Portfolio
+
+A website for all my work.
