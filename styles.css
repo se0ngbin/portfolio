@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'LazenbyCompLiquid';
+    src: url('./fonts/LazenbyCompLiquid.eot');
+    src: url('./fonts/LazenbyCompLiquid.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/LazenbyComputer-Liquid.svg#LazenbyComputer-Liquid') format('svg'),
+        url('./fonts/LazenbyComputer-Liquid.ttf') format('truetype'),
+        url('./fonts/LazenbyComputer-Liquid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    color: #534340;
+    background-image: linear-gradient(to right, #C5D8A4, #BB9981);
+    background-color: #C5D8A4;
+}
+
+.header {
+    color: #534340;
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+    margin: 0;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    background-blend-mode: multiply;
+    font-family: 'Khand', sans-serif;
+}
+
+.header h2 {
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.init-page {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.init-page h1 {
+    overflow: hidden;
+    font-size: 64px;
+    font-family: "LazenbyCompLiquid", serif;
+    border-right: .15em solid #534340;
+    /* The typewriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    animation:
+        blink-caret .75s step-end infinite;
+    margin: 0;
+}
+
+.binary {
+    width: 750px;
+    height: auto;
+    font-family: 'Caveat', cursive;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #534340;
+    }
+}
+
+.subsection {
+    font-family: 'Khand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    font-size: 30px;
+    height: 65vh;
+    width: auto;
+}
+
+.subsection p {
+    font-size: 20px;
+    margin: 0;
+    width: 600px;
+    text-align: center;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.project-list img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    border: 3px solid #534340;
+}
+
+.socials {
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.subsection.footer {
+    gap: 10px;
+    height: auto;
+    width: auto;
+}
+
+.socials img{
+    width: 35px;
+    height: auto;
+}
