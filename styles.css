@@ -37,6 +37,10 @@ body {
     margin: 0;
 }
 
+.a {
+    text-decoration: none;
+}
+
 .links {
     display: flex;
     align-items: center;
