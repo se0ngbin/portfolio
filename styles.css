@@ -140,3 +140,7 @@ body {
     width: 35px;
     height: auto;
 }
+
+#yeezy {
+    filter: sepia(30%) saturate(200%) brightness(75%) hue-rotate(180deg);
+}
