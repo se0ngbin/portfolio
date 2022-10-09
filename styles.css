@@ -10,13 +10,13 @@
 }
 
 body {
-    color: #534340;
+    color: #231c1b;
     background-image: linear-gradient(to right, #C5D8A4, #BB9981);
     background-color: #C5D8A4;
 }
 
 .header {
-    color: #534340;
+    color: #231c1b;
     width: 100%;
     height: 50px;
     padding: 10px 20px;
@@ -39,7 +39,7 @@ body {
 
 .header a {
     text-decoration: none;
-    color: #534340;
+    color: #231c1b;
 }
 
 .links {
@@ -98,7 +98,7 @@ body {
     align-items: center;
     gap: 15px;
     font-size: 30px;
-    height: 65vh;
+    height: 85vh;
     width: auto;
 }
 
@@ -143,4 +143,9 @@ body {
 
 #yeezy {
     filter: sepia(30%) saturate(200%) brightness(75%) hue-rotate(180deg);
+}
+
+a {
+    text-decoration: underline; 
+    color: black;
 }
